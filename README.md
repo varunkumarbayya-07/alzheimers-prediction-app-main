@@ -228,8 +228,7 @@ Alzheimers_Diagnostic_System/
 
 | | Member | Role | Email |
 |---|---|---|---|
-| 🎓 | **Mangali Sai** | UG Student — CSE | vtu22276@veltech.edu.in |
-| 🎓 | **Vatti Anil Kumar Reddy** | UG Student — CSE | vtu21682@veltech.edu.in |
+| 🎓 | **Bayya Varunkumar** | UG Student — CSE-aiml| vtu21682@v |
 
 </div>
 
@@ -239,18 +238,16 @@ Alzheimers_Diagnostic_System/
 
 <div align="center">
 
-**Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology**
+**Malla Reddy Engineering College**
 <br/>
-Department of Computer Science and Engineering
+Department of Computer Science and Engineering-(AIML)
 <br/>
-Chennai, India — 600062
+Hyderabad, India — 500014
 
 *B.Tech Final Year Project — 2025–2026*
 
 ---
 
-<img src="https://img.shields.io/badge/Made_with-❤️_&_Python-8A4FFF?style=for-the-badge" />
-&nbsp;
 <img src="https://img.shields.io/badge/For-Alzheimer's_Awareness-ef4444?style=for-the-badge" />
 
 </div>
