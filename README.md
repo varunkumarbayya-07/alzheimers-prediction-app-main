@@ -228,7 +228,7 @@ Alzheimers_Diagnostic_System/
 
 | | Member | Role | Email |
 |---|---|---|---|
-| 🎓 | **Bayya Varunkumar** | UG Student — CSE-aiml| vtu21682@v |
+| 🎓 | **Bayya Varunkumar** | UG Student — CSE-AIML| bayyavarunkumar@gmail.com |
 
 </div>
 
