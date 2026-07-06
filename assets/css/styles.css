@@ -1,0 +1,99 @@
+/* ── Dark overlay over the background image ── */
+.stApp {
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+.stApp::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 5, 20, 0.72);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Ensure all main content sits above the overlay */
+[data-testid="stAppViewContainer"] > section {
+    position: relative;
+    z-index: 1;
+}
+
+/* ── Typography ── */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+p, li, label, .stMarkdown {
+    color: #e8e8e8 !important;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.9);
+}
+
+/* make Streamlit's own text elements white */
+[data-testid="stText"],
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li {
+    color: #e8e8e8 !important;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #a78bfa;
+}
+
+footer { visibility: hidden; }
+
+#MainMenu { visibility: hidden; }
+
+/* ── Sidebar ── */
+[data-testid="stSidebar"] {
+    background-color: rgba(5, 5, 30, 0.80) !important;
+    backdrop-filter: blur(8px);
+}
+
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] .stMarkdown {
+    color: #d0d0f0 !important;
+}
+
+/* ── Cards ── */
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px auto;
+}
+
+.team-member {
+    background-color: rgba(255,255,255,0.10);
+    border: 1px solid rgba(167,139,250,0.3);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    text-align: center;
+    width: 200px;
+    min-height: 130px;
+    backdrop-filter: blur(6px);
+}
+
+.team-member h3 { font-size: 1rem !important; margin-bottom: 4px; }
+.team-member p  { font-size: 0.85rem !important; opacity: 0.8; }
+
+/* ── Input / form elements ── */
+[data-testid="stNumberInput"] label,
+[data-testid="stSelectbox"] label,
+[data-testid="stRadio"] label,
+.stRadio label, .stSelectbox label {
+    color: #e0e0ff !important;
+    font-weight: 500;
+}
+
+/* ── Streamlit info / warning boxes ── */
+[data-testid="stAlert"] {
+    background-color: rgba(20,20,60,0.75) !important;
+    border-left-color: #7c3aed !important;
+}
